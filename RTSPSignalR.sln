@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageReceiver", "ImageReceiver\ImageReceiver.csproj", "{740D37B4-AF0C-4F7A-8F7E-948625826539}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22F5EFF1-1C11-4AF4-9338-3427A22169BA} = {22F5EFF1-1C11-4AF4-9338-3427A22169BA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTSPListener", "RTSPListener\RTSPListener.csproj", "{22F5EFF1-1C11-4AF4-9338-3427A22169BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740D37B4-AF0C-4F7A-8F7E-948625826539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740D37B4-AF0C-4F7A-8F7E-948625826539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740D37B4-AF0C-4F7A-8F7E-948625826539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740D37B4-AF0C-4F7A-8F7E-948625826539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F5EFF1-1C11-4AF4-9338-3427A22169BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F5EFF1-1C11-4AF4-9338-3427A22169BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F5EFF1-1C11-4AF4-9338-3427A22169BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F5EFF1-1C11-4AF4-9338-3427A22169BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64D24E8-0CDA-4E1F-9384-F0BA1EA1A40C}
+	EndGlobalSection
+EndGlobal
