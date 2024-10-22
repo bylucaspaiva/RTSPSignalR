@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageReceiver", "ImageReceiver\ImageReceiver.csproj", "{740D37B4-AF0C-4F7A-8F7E-948625826539}"
-	ProjectSection(ProjectDependencies) = postProject
-		{22F5EFF1-1C11-4AF4-9338-3427A22169BA} = {22F5EFF1-1C11-4AF4-9338-3427A22169BA}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageReceiver", "ImageReceiver\ImageReceiver.csproj", "{740D37B4-AF0C-4F7A-8F7E-948625826539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTSPListener", "RTSPListener\RTSPListener.csproj", "{22F5EFF1-1C11-4AF4-9338-3427A22169BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RTSPListener", "RTSPListener\RTSPListener.csproj", "{22F5EFF1-1C11-4AF4-9338-3427A22169BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{740D37B4-AF0C-4F7A-8F7E-948625826539} = {740D37B4-AF0C-4F7A-8F7E-948625826539}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
